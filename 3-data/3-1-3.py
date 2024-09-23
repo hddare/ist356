@@ -1,4 +1,6 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv("https://raw.githubusercontent.com/mafudge/datasets/master/customers/customers.csv")
+url = "https://raw.githubusercontent.com/mafudge/datasets/master/customers/customers.csv"
+
+df = pd.read_csv(url)
